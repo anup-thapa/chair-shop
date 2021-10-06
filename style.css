@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-weight: bold; */
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+}
+
+.heading {
+    display: flex;
+    margin: 30px 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.content {
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 2;
+}
+
+.heading p {
+    font-size: 24px;
+    height: 200px;
+    width: 600px;
+    line-height: 1.7;
+}
+
+.image {
+    display: flex;
+    height: 600px;
+    width: 500px;
+    margin: 20px 16px;
+    padding: 20px 20px;
+}
+
+img {
+    border-radius: 10px 10px 10px 10px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #f5f5f5;
+}
+
+.btn:link {
+    font-size: 28px;
+    text-transform: uppercase;
+    background-color: #087f5b;
+    text-decoration: none;
+    margin: 16px 16px;
+    padding: 18px 18px;
+    border-radius: 20px;
+}
+
+.btn:link:hover {
+    background-color: #099268;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 18px 18px;
+    padding: 24px 24px;
+}
+
+.heading-2 p {
+    font-size: 16px;
+    height: 100px;
+    width: 400px;
+    line-height: 1.9;
+}
+
+.heading-2 {
+    display: flex;
+    line-height: 3;
+    justify-content: space-between;
+    margin: 18px 16px;
+    padding: 20px 20px;
+    margin-bottom: 100px;
+}
+
+.heading-2 h3 {
+    font-size: 30px;
+}
+
+.heading-icons {
+    stroke: #099268;
+    height: 50px;
+    width: 50px;
+}
+
+.grid-template {
+    display: flex;
+    margin: 20px 20px;
+    padding: 24px 24px;
+}
+
+.image-2 {
+    display: flex;
+    height: 300px;
+    margin: 24px;
+    padding: 20px;
+}
+
+.title {
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    padding: 18px;
+}
+
+.grid-template h4 {
+    font-size: 30px;
+}
+
+.grid-template {
+    background-color: hsl(132, 52%, 35%);
+    border-radius: 12px;
+    margin-bottom: 70px;
+}
+
+.baby-name {
+    /* text-transform: uppercase; */
+    margin: 25px;
+    font-size: 20px;
+}
+
+.grid-template p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.buttom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    /* box-shadow: 12px 12px 12px 12px black; */
+}
+
+h5 {
+    font-size: 36px;
+    margin: 10px 10px;
+    padding: 2px 8px;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+}
+
+.buttom {
+    display: flex;
+    margin: 24px 24px;
+    padding: 20px 24px;
+    margin-bottom: 70px;
+    min-height: 700px;
+}
+
+.chair-1 {
+    box-shadow: 3px 5px 17px -2px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 3px 5px 17px -2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 3px 5px 17px -2px rgba(0, 0, 0, 1);
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.chair-1 img {
+    height: 350px;
+    width: 450px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+h6 {
+    font-size: 28px;
+    margin: 24px 24px;
+}
+
+ul {
+    font-size: 14px;
+    line-height: 3;
+    list-style: none;
+    margin: 24px 24px;
+}
+
+.ul-icons {
+    stroke: #099268;
+    height: 20px;
+    width: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.price-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 00;
+    margin: 24px 24px;
+}
+
+.btnn:link {
+    font-size: 30px;
+    background-color: #099268;
+    text-decoration: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.btnn:link:hover {
+    background-color: #2b8a3e;
+}
+
+.btnn:link {
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #087f5b;
+    margin: 8px 16px;
+    padding: 15px 25px;
+    border-radius: 12px;
+    margin-left: 150px;
+    color: whitesmoke;
+}
+
+.btnn:link:hover {
+    background-color: #099268;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 24px 24px;
+    padding: 12px 12px;
+    border-bottom: 10px solid #087f5b;
+    border-radius: 5px;
+}
